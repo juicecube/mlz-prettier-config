@@ -11,14 +11,12 @@ mlz-prettier-config 的使用有两种方式
 #### 在项目根目录新建 `.prettierrc.json` 文件，并写入下面👇代码
 
 ```json
-// .prettierrc.json
 "@mlz/prettier-config"
 ```
 
 #### 如需覆盖部分配置，在项目根目录新建 `.prettierrc.js` 文件，并写入下面👇代码
 
 ```js
-// .prettierrc.js
 module.exports = {
   ...require('@mlz/prettier-config'),
   semi: true,
