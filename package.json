@@ -1,0 +1,40 @@
+{
+  "name": "@mlz/prettier-config",
+  "version": "1.0.0",
+  "description": "prettier 统一规范配置",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "lint-staged",
+    "prepare": "husky install",
+    "release": "standard-version"
+  },
+  "keywords": [
+    "mlz-prettier",
+    "prettier",
+    "prettier-config"
+  ],
+  "author": "juicecube",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juicecube/mlz-prettier-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juicecube/mlz-prettier-config/issues"
+  },
+  "homepage": "https://github.com/juicecube/mlz-prettier-config#readme",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "prettier": "^2.8.4",
+    "standard-version": "^9.5.0"
+  }
+}
