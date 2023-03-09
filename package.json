@@ -36,5 +36,9 @@
     "lint-staged": "^13.1.2",
     "prettier": "^2.8.4",
     "standard-version": "^9.5.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
