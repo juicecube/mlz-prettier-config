@@ -38,7 +38,6 @@
     "standard-version": "^9.5.0"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "access": "public"
   }
 }
